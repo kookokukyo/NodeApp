@@ -10,6 +10,9 @@
   <component name="FavoritesManager">
     <favorites_list name="nodeApp" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
     <exe-path />
@@ -17,6 +20,7 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectId" id="1UNuPXQkvT03zqIo4fmFUTbNOCu" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -65,6 +69,7 @@
       <workItem from="1575210450600" duration="47000" />
       <workItem from="1575210609661" duration="6000" />
       <workItem from="1575558169088" duration="18000" />
+      <workItem from="1577453142070" duration="8000" />
     </task>
     <servers />
   </component>
