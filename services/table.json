@@ -1,0 +1,10 @@
+{
+    "User": {
+        "title": "String",
+        "description": "String",
+        "by": "String",
+        "url": "String",
+        "tags": "Array",
+        "likes": "Number"
+    }
+}
