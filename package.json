@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "supervisor ./bin/www"
+    "start": "node ./bin/www"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
@@ -14,7 +14,6 @@
     "mongoose": "^5.9.5",
     "morgan": "~1.9.1",
     "mysql": "^2.17.1",
-    "pug": "2.0.0-beta11",
-    "supervisor": "^0.12.0"
+    "pug": "2.0.0-beta11"
   }
 }
