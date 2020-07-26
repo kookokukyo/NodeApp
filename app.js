@@ -8,6 +8,9 @@ var accessLogStream = fs.createWriteStream(path.join(__dirname + '/log', 'access
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
+var userRouter = require('./routes/user');
+var scancodeRouter = require('./routes/scancode');
+
 
 var app = express();
 
@@ -27,6 +30,9 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
+app.use('/user', userRouter);
+app.use('/scancode', scancodeRouter);
+
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
@@ -35,6 +41,13 @@ app.use(function(req, res, next) {
 
 // error handler
 app.use(function(err, req, res, next) {
+    //设置允许跨域的域名，*代表允许任意域名跨域
+    res.header("Access-Control-Allow-Origin","*");
+    //允许的header类型
+    res.header("Access-Control-Allow-Headers","content-type");
+    //跨域允许的请求方式
+    res.header("Access-Control-Allow-Methods","DELETE,PUT,POST,GET,OPTIONS");
+
     // set locals, only providing error in development
     res.locals.message = err.message;
     res.locals.error = req.app.get('env') === 'development' ? err : {};

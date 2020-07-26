@@ -2,7 +2,7 @@
 <project version="4">
   <component name="DBNavigator.Project.DataEditorManager">
     <record-view-column-sorting-type value="BY_INDEX" />
-    <value-preview-text-wrapping value="true" />
+    <value-preview-text-wrapping value="false" />
     <value-preview-pinned value="false" />
   </component>
   <component name="DBNavigator.Project.DataExportManager">
@@ -24,29 +24,24 @@
     <autoscroll-from-editor value="true" />
     <show-object-properties value="true" />
     <loaded-nodes>
-      <connection connection-id="07ccf432-0615-45b3-9fa2-cae595feeeeb">
-        <schema name="MuziData" object-types="table, function, procedure, view, index, constraint, column, dataset trigger" />
+      <connection connection-id="af647120-5685-4b0d-8afb-f74f4dc63231">
+        <schema name="MuziData" object-types="dataset trigger, procedure, table, view, constraint, index, column, function" />
       </connection>
     </loaded-nodes>
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
-    <connection id="07ccf432-0615-45b3-9fa2-cae595feeeeb">
-      <console name="MuziData" type="STANDARD" schema="MuziData" session="Main"><![CDATA[CREATE TABLE `user` (
-  `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
-  `name` varchar(50) DEFAULT NULL,
-  `age` tinyint(4) DEFAULT NULL,
-  PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;]]></console>
+    <connection id="af647120-5685-4b0d-8afb-f74f4dc63231">
+      <console name="MuziData" type="STANDARD" schema="MuziData" session="Main" />
     </connection>
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
     <open-files />
   </component>
   <component name="DBNavigator.Project.DatabaseSessionManager">
-    <connection id="07ccf432-0615-45b3-9fa2-cae595feeeeb" />
+    <connection id="af647120-5685-4b0d-8afb-f74f4dc63231" />
   </component>
   <component name="DBNavigator.Project.DatasetFilterManager">
-    <filter-actions connection-id="07ccf432-0615-45b3-9fa2-cae595feeeeb" dataset="MuziData.user" active-filter-id="EMPTY_FILTER" />
+    <filter-actions connection-id="af647120-5685-4b0d-8afb-f74f4dc63231" dataset="MuziData.user" active-filter-id="EMPTY_FILTER" />
   </component>
   <component name="DBNavigator.Project.EditorStateManager">
     <last-used-providers />
@@ -71,13 +66,13 @@
   </component>
   <component name="DBNavigator.Project.Settings">
     <connections>
-      <connection id="07ccf432-0615-45b3-9fa2-cae595feeeeb" active="true">
+      <connection id="af647120-5685-4b0d-8afb-f74f4dc63231" active="true">
         <database>
           <name value="MuziData" />
           <description value="" />
           <database-type value="MYSQL" />
           <config-type value="BASIC" />
-          <database-version value="5.6" />
+          <database-version value="5.7" />
           <driver-source value="BUILTIN" />
           <driver-library value="" />
           <driver value="" />
